@@ -1,0 +1,51 @@
+.square{
+    width: 1000px;
+    height: 1000px;
+}
+img{
+    float: left;
+    margin: 18px;
+justify-content: center;
+width: 200px;
+height: 200px;
+}
+h2{
+    text-align: center;
+    justify-content:flex-end;
+}
+p{
+    text-align: center;
+}
+
+.snick1{
+    background-color: aqua;
+    width: 250px;
+    height: 350px;
+
+}
+.product1{
+    display: flex;
+    gap : 5px;
+}
+
+img{
+    margin: 18px;
+justify-content: center;
+width: 200px;
+height: 200px;
+
+}
+.snick2{
+    background-color: aqua;
+    width: 250px;
+    height: 350px;
+}
+.product2{
+    display: flex;
+    gap : 5px;
+}
+.price{
+    
+background-color: brown;
+
+}

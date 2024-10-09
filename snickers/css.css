@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex; /*для родительского*/
+    justify-content: center; /*выравнивание по горизонтальной оси*/
+    gap: 20px; /*отступы между ячейками флекс-сетки*/
+    flex-wrap: wrap; /*перенос на новую строку (если не хватает места)*/
+}
+article img {
+    width: 100%;
+}
+article {
+    background: rgb(2, 196, 226);
+    width: 200px;
+    padding: 10px;
+}
+section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nomer2 article {
+    padding: 10px;
+}
+.nomer2 article h3,
+.nomer2 article p {
+    padding: 0 10px;
+}
+section {
+    margin-top: 20px;
+}
+.blocks {
+    color: white;
+}
+.blocks article {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    background: red;
+    color: white;
+    /* следующие 3 свойства позволяют выровнять текст внутри блока: */
+    display: flex;
+    justify-content: center;
+    align-items: center; /*выравнивание по вертикали*/
+}
+ul {
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    
+}
+nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(230, 158, 158);
+}
+.nomer2, .nomer1, .nomer3{
+    color: rgb(224, 218, 218);
+}
+h3{
+    color: rgb(2, 1, 1);
+}
+.n1 li{
+    border: 1px solid black;
+    color: rgb(253, 253, 253);
+    width: 250px; 
+    background-color: rgb(185, 0, 0);
+    padding: 10px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    cursor: pointer;
+}
+.n1 li:hover{
+    background-color: rgb(255, 174, 227);
+    color: rgb(44, 9, 110);
+}
+.n1 {
+    display: flex; 
+    justify-content: center;
+    padding: 0;
+}

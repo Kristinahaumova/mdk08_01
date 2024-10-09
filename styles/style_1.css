@@ -1,0 +1,160 @@
+
+.prew{
+    width: 200px;
+    height: 100px;
+}
+.new1{
+    background: url(../img/дашаскрин.jpeg);
+    background-size: cover;
+}
+.new2{
+    background: url(../img/SO3rRO32tkU.jpg);
+    background-size: cover;
+}
+.personal{
+    background: url(../img/хк.jpg);
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+}
+.glawnaj{
+    width: 200px;
+    height: 200px;
+
+}
+.i1{
+    background: url(../img/images.jpg);
+    background-size: cover;
+}
+.i2{
+    background: url(../img/7925783.jpg);
+    background-size: cover;
+}
+.glawnaj3{
+    background: url(../img/сон.jpg);
+    width: 400px;
+    height: 700px;
+    background-size: cover;
+}
+.navak1{
+    background: url(../img/готовка.jpg);
+    width: 400px;
+    height: 700px;
+    background-size: cover;
+    
+}
+
+.new11{
+    width: 300px;
+    height: 300px;
+    background: url(../img/дашаскрин.jpeg) ;
+    background: url(../img/lfifcrhby.jpeg);
+}
+.asd1{
+    background-size: cover;
+    background: url(../img/дашаскрин.jpeg) ;
+}
+.asd2{
+    background: url(../img/lfifcrhby.jpeg);
+    background-size: cover;
+}
+.new21{
+    background: url(../img/SO3rRO32tkU.jpg);
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+        text-align: left;
+}
+.weather{
+   float: right;
+   padding: 15px;
+    background: url(../img/погода\ .png);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    gap:30px;
+    text-align: center;
+
+}
+
+body{
+    background: rgb(190, 124, 163);
+}
+.pr2{
+    width: 300px;
+    height: 300px;
+}
+header h2{
+    font-size: 20px;
+    text-align: center;
+}
+h2{
+    font-size: 20px;
+}
+h3{
+    font-size: 18px;
+}
+h1{
+    font-size: 24px;
+}
+*{
+    font-size: 16px;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul li{
+    display: inline-block;
+}
+ul{
+    background: rgb(129, 179, 199);
+}
+li{
+    padding: 10px;
+}
+.content{
+    display: flex;
+}
+main{
+    width: 70%;
+}
+aside{
+    width: 30%;
+}
+.content1{
+    display: flex;
+    gap: 20px;
+}
+.content1 article{
+    width: 400px;
+}
+
+.content5{
+     display: flex;
+}
+.content2{
+    display: flex;
+    gap: 20px;
+}
+.content1 article{
+    width: 400px;
+}
+.skill{
+    background: url(../img/4812-kotik-8.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.skill2{
+    background: url(../img/1696420310_gas-kvas-com-p-kartinki-malenkie-kotikov-41.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+.skill3{
+    background: url(../img/kot2.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
+
